@@ -1,2 +1,2 @@
 # MongoApi
-Projeto de estudo Node.js Api com integração MongoDB
+Projeto para estudo Node.js Api com integração MongoDB
