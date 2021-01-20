@@ -26,7 +26,7 @@ module.exports= function(app){
     //Incluir Um Usuario no Banco de Dados
     app.post('/users', (req, res) =>{
         const user = User(req.body);
-        user.save(() => {
+        user.save((err) => {
             if(err){
                 return res.send(err);
             }
